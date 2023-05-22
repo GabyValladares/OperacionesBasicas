@@ -7,12 +7,46 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/txtETitulo"
+        android:layout_width="287dp"
+        android:layout_height="72dp"
+        android:fontFamily="sans-serif-thin"
+        android:lineSpacingExtra="24sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        tools:text="APLICACIONES MÓVILES" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="209dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif-thin"
+        android:lineSpacingExtra="20sp"
+        android:text="Operaciones Básicas:"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="133dp"
+        android:layout_height="67dp"
+        android:text="Sumar "
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="303dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
